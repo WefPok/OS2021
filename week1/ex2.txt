@@ -1,0 +1,16 @@
+  110  pip install opencv-python
+  111  pip install telethon
+  112  pip install pytesseract
+  113  brew install tesseract-lang
+  114  brew
+  115  sudo port install tesseract
+  116  sudo port install tesseract
+  117  pwd
+  118  ls
+  119  cd desktop
+  120  mkdir week1
+  121  cd week1
+  122  ls /usr/bin
+  123  ls /usr/bin | sort -r | grep 'gcc'
+  124  ls /usr/bin | sort -r | grep 'gcc' > ex1.txt
+  125  ls

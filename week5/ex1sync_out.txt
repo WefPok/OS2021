@@ -1,0 +1,10 @@
+Enter # of threads to generate: 3
+Created Thread 0
+Inside thread 0
+Exit Thread 0
+Created Thread 1
+Inside thread 1
+Exit Thread 1
+Created Thread 2
+Inside thread 2
+Exit Thread 2

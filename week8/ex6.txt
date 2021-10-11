@@ -1,0 +1,1 @@
+8KB -> 2^3*2^10 = 2^13 -> address can be represented with 13 bits. So for the page number number of bits remaining = 16-13 = 3. So 2^3 entries needed for a single level linear page table.

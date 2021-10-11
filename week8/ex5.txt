@@ -1,0 +1,1 @@
+Physical addresses correspond to the particular memory address in RAM, so physical addressing operates with actual memory addresses. Virtual addressing, on the contrary, utilizes a look-up table which divides actual memory into pages and manages them. So to the virtual address is just a key for the lookup table, corresponding to a particular RAM address.

@@ -1,0 +1,7 @@
+For 10 pages:
+Increased: 1 1 1 1 1 1 1 1 1 1 - 9/1 ratio
+Decreased: 1 2 3 4 5 6 7 8 9 1  - 1/9 ratio
+
+Hit/Miss ratio depends on the memory capacity - the larger it is, the higher the probability that 
+Requested page will be there. It is also can be inferred from the results of the ex1 - larger the memory size (pages number) - higher the hit rate.
+

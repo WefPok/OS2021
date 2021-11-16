@@ -41,7 +41,7 @@ void summ_elements(int* arr1, int* arr2, int size){
 int main() {
     FILE *fp;
     int lines_count = 0;
-    char* filename = "input_ok.txt";
+    char* filename = "input_dl.txt";
     fp = fopen(filename, "r");
     if (fp == NULL)
     {
@@ -50,9 +50,14 @@ int main() {
     }
     int flag = 1;
     int spaces = 0;
+    char prev;
     for (char c = getc(fp); c != EOF; c = getc(fp)) {
         if (c == '\n'){
             lines_count = lines_count + 1;
+            if (prev == '\n'){
+                break;
+            }
+            prev = c;
             flag = 0;
         }
         if (flag == 1 && c == ' '){
@@ -104,7 +109,6 @@ int main() {
             summ_elements(available_res, existed[i], spaces);
         }
     }
-
 
     int re_tick;
     while(1){

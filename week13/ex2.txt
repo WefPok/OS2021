@@ -1,0 +1,10 @@
+The goal of DEADLOCK AVOIDANCE is preventing deadlocks from hapenning beforehand.
+That is achieved by preventing one of the four deadlock conditions. 
+That method requires a lot of information about every process what makes it complex as future resource requirements must be known in advance.
+But it can gurantee that next step taken will not lead to a deadlock.
+
+DEADLOCK PREVENTION is the technique aimed to design the system in such a way so that deadlocks can never occur.
+Such algorithms may have better perfomance that avoidance in some cases.
+
+DEADLOCK prevention method deals with deadlocks only when they're occured. So forthe system that can effectively manipulate resources 'on the go' that tecnhique would be effective.
+This method is also faster, as it doesn't require any additional computations to avoid deadlocks.
